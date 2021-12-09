@@ -95,14 +95,13 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 
-.titulo,
-main, 
+header, 
 .pie-web,
 .servicio,
 .campo,
 .paro-contacto,
 .w-100 {
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     scroll-snap-stop: always;
 }
 
