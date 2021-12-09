@@ -95,8 +95,14 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 
-.titulo, .segundoParo, .tercerParo {
-    scroll-snap-align: start end;
+.nav-bg, 
+.servicios, 
+.formulario, 
+.pie-web,
+.icono,
+.campo
+.w-100 {
+    scroll-snap-align: center;
     scroll-snap-stop: always;
 }
 
@@ -141,7 +147,8 @@ h1, h2, h3 {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    background-position: center;
+    height: 400px;
     position: relative;
     margin-bottom: 2rem;
 }
