@@ -95,8 +95,8 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 
-.servicios, .nav-bg, .formulario {
-    scroll-snap-align: center;
+.titulo, .segundoParo, .tercerParo {
+    scroll-snap-align: start end;
     scroll-snap-stop: always;
 }
 
