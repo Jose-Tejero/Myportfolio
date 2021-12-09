@@ -101,7 +101,8 @@ h1, h2, h3 {
 .pie-web,
 .icono,
 .campo
-.w-100 {
+.w-100
+.boton {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
