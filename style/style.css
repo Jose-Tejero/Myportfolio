@@ -258,3 +258,19 @@ header,
     cursor: pointer;
 }
 
+.titulo {
+    animation-name: cambiardecolor;
+    animation-duration: 2s;
+    /*animation-delay: 1s;*/
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambiardecolor{
+    0%{
+        color: #ffffff;
+    }
+    100%{
+        color: var(--primario);
+    }
+}
