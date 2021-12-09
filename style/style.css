@@ -95,13 +95,14 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 
-.nav-bg,
-.formulario, 
+.titulo,
+main, 
 .pie-web,
 .servicio,
-.campo
+.campo,
+.paro-contacto,
 .w-100 {
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     scroll-snap-stop: always;
 }
 
@@ -147,7 +148,7 @@ h1, h2, h3 {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-position: center;*/
+    background-position: center;
     height: 400px;
     position: relative;
     margin-bottom: 2rem;
