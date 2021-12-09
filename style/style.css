@@ -5,6 +5,7 @@
     --secundario: rgb(60, 11, 105);
     --gris: #757575;
     --contraste: #1c0000;
+    --terciario: #8e9fff;
 }
 
 html {
@@ -186,7 +187,7 @@ header,
 }
 
 .servicio h3 {
-    color: var(--contraste);
+    color: var(--terciario);
     font-size: bold;
 }
 
