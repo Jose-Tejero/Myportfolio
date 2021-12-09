@@ -247,3 +247,13 @@ main,
     text-align: center;
     font-size: 1rem;
 }
+
+.icono {
+    transition: all 0.1s linear;
+}
+
+.icono:hover{
+    transform: scale(1.25);
+    box-shadow: 10px 10px 10px rgba(138,15,138,0.62);
+    cursor: pointer;
+}
