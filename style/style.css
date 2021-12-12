@@ -42,9 +42,6 @@ h1, h2, h3 {
     padding: 2rem;
     border-radius: 1rem;
 }
-.titulo span {
-    font-size: 2rem;
-}
 
 .contenedor {
     max-width: 90%;
@@ -92,9 +89,13 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
+.main-nav a{    
+    transition: background-color 0.3s ease;
+}
+
 .main-nav a:hover {
     background-color: var(--primario);
-    color: var(--oscuro);
+    color: var(--terciario);
 }
 
 /*header, 
@@ -153,9 +154,9 @@ h1, h2, h3 {
 .hero {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
     height: 400px;
     position: relative;
     margin-bottom: 2rem;
@@ -176,6 +177,13 @@ h1, h2, h3 {
 .contenido-hero h2, .contenido-hero p {
     color: white;
 }
+
+/*.miFoto {
+    background-image: url(../img/yo.jpeg);
+    background-repeat: no-repeat;
+    height: 25rem;
+    background-position: top;
+}*/
 
 .ubicacion {
     display: flex;
@@ -281,3 +289,20 @@ h1, h2, h3 {
         color: var(--primario);
     }
 }
+
+.servicio>img {
+    height: 15rem;   
+    width: 15rem;
+    border-radius: 5%;
+    border-style: groove;
+    border-color: var(--secundario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.principal {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}*/
